@@ -3,9 +3,13 @@
     display: inline-block;
     margin-top: 15%;
 }
+.but2 {
+  margin-left: 10%;
+}
 button {
-  width: 100%;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #da4f6e;
   background-image: linear-gradient(60deg, #e85475 10%, #d48444 50%, #efcb0a 100%);
   color: #f7f4f4;
@@ -20,6 +24,7 @@ button {
   background-image: linear-gradient(60deg, #b286ef 10%, #981fbf 50%, #7e20fd 100%);
   box-shadow: 0 2px 25px 0 rgba(81, 17, 103, 0.35);
   margin-bottom: 5%;
+
 }
 button:hover {
   box-shadow: 0 0px 0px 0 rgba(0, 40, 120, 0);
@@ -120,5 +125,16 @@ body {
   }
   to {
         background-position: -550px 0, -320px 60px, -120px 270px, -150px 150px;
+  }
+}
+@media (max-width: 1330px) {
+  .pic {
+    margin-left: 0%;
+  }
+  button {
+    margin-left: 0%;
+  }
+  .but2 {
+    margin-left: 0%;
   }
 }
