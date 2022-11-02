@@ -1,1 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson10_JS</title>
+    <link href="css/style.css" rel="stylesheet"></link>
+</head>
+<body>
+    <div class="general"> <!-- общий див - релатив, 2048 -->
+        <div class="passive"> <!-- див для кнопок и картинки, оцентровать по общему диву -->
+            
+            <!-- 1 див с кнопками - абсолют или 33% ширины -->
+            <div class="but1">
+                <br>
+                <button id="one" onclick="showmessage()">
+                    Вывести текст
+                </button> <br> 
+                <br>
+                <button id="two" onclick="showmessage()">
+                    Изменить цвет
+                </button> <br>
+                <br>
+                <button id="three" onclick="showmessage()">
+                    Увеличить
+                </button> <br>
+                <br>
+                <button id="four" onclick="showmessage()">
+                    Увеличить ширину
+                </button> <br>
+                <br>
+            </div>
 
+            <!-- 2 див с картинкой -->
+            <div id="pict" class="pic">
+                <div id="txt" class="text opacity">
+                    <br> Больша́я Медве́дица — созвездие северного полушария неба. <br> Семь звёзд Большой Медведицы составляют фигуру, напоминающую ковш с ручкой.
+                </div>
+            </div>
+
+            <!-- 3 див с кнопками -->
+            <div class="but1" style="margin-left: 10%;">
+                <br>
+                <button id="five" onclick="showmessage()">
+                    Увеличить высоту
+                </button> <br>
+                <br>
+                <button id="six" onclick="showmessage()">
+                    Преобразовать 
+                </button> <br>
+                <br>
+                <button id="seven" onclick="showmessage()">
+                    Скройся/Покажись
+                </button> <br>
+                <br>
+                <button id="eight" onclick="showmessage()">
+                    Сбросить всё
+                </button> <br>
+                <br>
+            </div>
+        </div>
+
+        
+    </div>
+      
+    <script src="js/main.js"></script>
+</body>
+</html>
