@@ -13,16 +13,18 @@ function addwidth() {
 function addheight() {
   document.getElementById("pict").style.height ="700px";
 }
-//не получилось
-function chabgeborder() {
-  document.getElementById("pict").style.borderRadius ="50px";
+function changeborder() {
+  document.getElementById("pict").style.borderRadius ="50%";
 }
-//не получилось
-function hidden() {
+function hidden2() {
   document.getElementById("pict").style.display ="none";
-  document.getElementsByClassName('pic')[0].style.display = "none"
-}
+  document.getElementById("seven1").style.opacity ="1";
+  document.getElementById("seven").style.opacity ="0";
 
+}
+function nothidden2() {
+  document.getElementById("pict").style.display ="";
+}
 
 function defolt() {
   window.location.reload();

@@ -56,6 +56,9 @@ button:hover {
   color: white;
   opacity: 0;
 }
+#seven1 {
+  opacity: 0;
+}
 
 
 body {
