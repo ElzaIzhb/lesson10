@@ -18,12 +18,15 @@ function changeborder() {
 }
 function hidden2() {
   document.getElementById("pict").style.display ="none";
-  document.getElementById("seven1").style.opacity ="1";
-  document.getElementById("seven").style.opacity ="0";
+  document.getElementById("seven1").style.display ="inline-block";
+  document.getElementById("seven").style.display ="none";
 
 }
 function nothidden2() {
   document.getElementById("pict").style.display ="";
+  document.getElementById("seven1").style.display ="none";
+  document.getElementById("seven").style.display ="inline-block";
+
 }
 
 function defolt() {
