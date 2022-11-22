@@ -138,3 +138,21 @@ body {
     margin-left: 0%;
   }
 }
+@media (max-width: 1065px) {
+  .passive {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .but1 {
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+  }
+  .pic {
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+  }
+}
